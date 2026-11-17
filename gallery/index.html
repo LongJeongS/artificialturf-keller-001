@@ -475,6 +475,10 @@ body.section-tint-subtle #faq {
 #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3) {
   grid-column: 2; grid-row: 2;
 }
+/* Six photos (client photo extras, 2026-11-17): the same pattern again, one large + two stacked. */
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(4) { grid-column: 1; grid-row: 3 / 5; }
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(5) { grid-column: 2; grid-row: 3; }
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(6) { grid-column: 2; grid-row: 4; }
 #gallery.gallery-variant-asymmetric-feature .gallery-item img {
   width: 100%;
   height: 100%;
@@ -486,7 +490,10 @@ body.section-tint-subtle #faq {
   }
   #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(1),
   #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(2),
-  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3) {
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(4),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(5),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(6) {
     grid-column: 1; grid-row: auto;
   }
 }
@@ -4704,9 +4711,45 @@ body.feel-site-plan #site-nav .nav-logo { flex-shrink: 0; }
         <img src="/images/gallery_2.webp" alt="Artificial turf lawn split by a paver walk leading to a white manor house under oaks" loading="lazy" width="400" height="300">
         <figcaption class="gallery-caption">Front yard</figcaption>
       </figure>
+      <figure class="gallery-item" data-group="more">
+        <img src="/images/gallery_3.webp" alt="Artificial turf lawn leading to a pool, spa and stone cabana with open fields beyond" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Pool surround</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="lawns">
+        <img src="/images/gallery_4.webp" alt="Backyard artificial grass lawn stretching to a stained wood privacy fence, with an open gate and a light brick wall at left" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Backyard lawn</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="more">
+        <img src="/images/gallery_5.webp" alt="Bocce court of green turf framed by a poured concrete curb, set in a sandy yard beside a weathered picket fence" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Sport turf</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="greens">
+        <img src="/images/gallery_6.webp" alt="Putting green with white flags and a sand bunker in dappled shade, edged by river rock beside a stone patio and grill" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Putting green</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="lawns">
+        <img src="/images/gallery_page_1.webp" alt="Long strip of turf running beside a tall cedar fence past a brick patio with yellow Adirondack chairs under cloudy sky" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Side yard</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="lawns">
+        <img src="/images/gallery_page_2.webp" alt="Synthetic grass seams around large square pavers leading to a flagged putting green and a tall evergreen screen" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Side yard</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="lawns">
+        <img src="/images/gallery_page_3.webp" alt="Breezeway of turf with a limestone star inlay and rectangular stepping stones, opening to a gravel drive and open field" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Side yard</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="lawns">
+        <img src="/images/gallery_page_4.webp" alt="Narrow putting green with colorful flags tucked between a red brick wall and a tall wooden fence, edged with river stones" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Side yard</figcaption>
+      </figure>
       <figure class="gallery-item" data-group="lawns">
         <img src="/images/gallery_page_5.webp" alt="Narrow side yard of artificial grass with a drain grate, running between a tall cedar fence and a light brick wall" loading="lazy" width="400" height="300">
         <figcaption class="gallery-caption">Side yard</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="lawns">
+        <img src="/images/gallery_page_6.webp" alt="Front turf lawn striped with tree shadows before a white cottage with dormers, edged by a broad gray gravel border" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Front yard</figcaption>
       </figure>
       <figure class="gallery-item" data-group="greens">
         <img src="/images/gallery_page_7.webp" alt="Kidney-shaped putting green with red flags set into a concrete patio by a brick fireplace and playset" loading="lazy" width="400" height="300">
@@ -4717,7 +4760,15 @@ body.feel-site-plan #site-nav .nav-logo { flex-shrink: 0; }
         <figcaption class="gallery-caption">Putting green</figcaption>
       </figure>
       <figure class="gallery-item" data-group="greens">
+        <img src="/images/gallery_page_9.webp" alt="Kidney shaped green with a white sand bunker behind a stone edged garden bed, iron fence and wide lake beyond" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Putting green</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="greens">
         <img src="/images/gallery_page_10.webp" alt="Multi-hole golf green with fringe collar on an open lot, tall pines and a stone house behind at golden hour" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Putting green</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="greens">
+        <img src="/images/gallery_page_11.webp" alt="Wide putting green with six flags and three chipping targets inside a tall horizontal plank fence, framed by pines" loading="lazy" width="400" height="300">
         <figcaption class="gallery-caption">Putting green</figcaption>
       </figure>
       <figure class="gallery-item" data-group="greens">
@@ -4730,6 +4781,10 @@ body.feel-site-plan #site-nav .nav-logo { flex-shrink: 0; }
       </figure>
       <figure class="gallery-item" data-group="more">
         <img src="/images/gallery_page_14.webp" alt="Synthetic turf floor inside twin chain-link batting cages with hanging nets under a blue sky" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Sport turf</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="more">
+        <img src="/images/gallery_page_15.webp" alt="Turf baseball diamond with red base paths, white chalk lines and a batter's box, an open field and low buildings beyond" loading="lazy" width="400" height="300">
         <figcaption class="gallery-caption">Sport turf</figcaption>
       </figure>
 

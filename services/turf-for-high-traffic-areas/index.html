@@ -513,6 +513,10 @@ body.section-tint-subtle #faq {
 #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3) {
   grid-column: 2; grid-row: 2;
 }
+/* Six photos (client photo extras, 2026-11-17): the same pattern again, one large + two stacked. */
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(4) { grid-column: 1; grid-row: 3 / 5; }
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(5) { grid-column: 2; grid-row: 3; }
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(6) { grid-column: 2; grid-row: 4; }
 #gallery.gallery-variant-asymmetric-feature .gallery-item img {
   width: 100%;
   height: 100%;
@@ -524,7 +528,10 @@ body.section-tint-subtle #faq {
   }
   #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(1),
   #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(2),
-  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3) {
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(4),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(5),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(6) {
     grid-column: 1; grid-row: auto;
   }
 }
@@ -4964,7 +4971,29 @@ body.feel-site-plan #site-nav .nav-logo { flex-shrink: 0; }
   </section>
 
   <!-- ── Service FAQs ──────────────────────────────────────────────────── -->
-  
+  <div class="svc-photo-strip-wrap">
+<section id="gallery" class="section-pad gallery-variant-grid svc-photo-strip" aria-labelledby="svc-photos-heading">
+  <div class="container">
+    <div class="gallery-header"><div><span class="section-eyebrow">Photos</span><h2 class="section-title" id="svc-photos-heading">Turf for High-Traffic Areas</h2></div></div>
+    <div class="gallery-grid">
+      <figure class="gallery-item" data-group="lawns">
+        <img src="/images/service_6_strip_1.webp" alt="Side yard turf run along a stained privacy fence next to a light brick patio with a yellow chair and a back gate" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Side yard</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="lawns">
+        <img src="/images/service_6_strip_2.webp" alt="Sunny side yard of artificial grass under a large shade tree, beside a brick wall with pool equipment and a wood fence" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Side yard</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="lawns">
+        <img src="/images/service_6_strip_3.webp" alt="Angled stepping stones set in turf near a limestone breezeway, with a pop up sprinkler spraying in the sunlight" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Side yard</figcaption>
+      </figure>
+    </div>
+    <p class="gallery-more"><a href="/gallery/">See all photos &rarr;</a></p>
+  </div>
+</section>
+</div>
+
   <section class="svc-faqs" aria-labelledby="svc-faq-heading">
     <div class="container">
       <span class="section-eyebrow">Common Questions</span>

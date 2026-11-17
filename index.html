@@ -665,6 +665,10 @@ body.section-tint-subtle #faq {
 #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3) {
   grid-column: 2; grid-row: 2;
 }
+/* Six photos (client photo extras, 2026-11-17): the same pattern again, one large + two stacked. */
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(4) { grid-column: 1; grid-row: 3 / 5; }
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(5) { grid-column: 2; grid-row: 3; }
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(6) { grid-column: 2; grid-row: 4; }
 #gallery.gallery-variant-asymmetric-feature .gallery-item img {
   width: 100%;
   height: 100%;
@@ -676,7 +680,10 @@ body.section-tint-subtle #faq {
   }
   #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(1),
   #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(2),
-  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3) {
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(4),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(5),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(6) {
     grid-column: 1; grid-row: auto;
   }
 }
@@ -6008,7 +6015,19 @@ body.feel-site-plan #site-nav .nav-logo { flex-shrink: 0; }
         <figcaption class="gallery-caption">Lawn, pool and cabana</figcaption>
       </figure>
 
-    
+          <figure class="gallery-item" data-group="lawns">
+        <img src="/images/gallery_4.webp" alt="Backyard artificial grass lawn stretching to a stained wood privacy fence, with an open gate and a light brick wall at left" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Backyard lawn</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="more">
+        <img src="/images/gallery_5.webp" alt="Bocce court of green turf framed by a poured concrete curb, set in a sandy yard beside a weathered picket fence" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Sport turf</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="greens">
+        <img src="/images/gallery_6.webp" alt="Putting green with white flags and a sand bunker in dappled shade, edged by river rock beside a stone patio and grill" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Putting green</figcaption>
+      </figure>
+
     </div>
     <p class="gallery-note">Photos from our installs.</p>
     <p class="gallery-more"><a href="/gallery/">See all photos &rarr;</a></p>
