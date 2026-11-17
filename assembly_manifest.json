@@ -7,6 +7,7 @@
     "faq/index.html",
     "terms/index.html",
     "privacy/index.html",
+    "gallery/index.html",
     "services/pet-turf/index.html",
     "services/play-area-and-playground-turf/index.html",
     "services/backyard-putting-greens/index.html",
@@ -22,8 +23,8 @@
     "cost-guides/artificial-turf-cost-keller-tx/index.html",
     "cost-guides/pet-turf-cost-per-square-foot/index.html"
   ],
-  "total_pages": 20,
-  "image_count": 17,
+  "total_pages": 21,
+  "image_count": 31,
   "all_urls": [
     "/",
     "/about/",
@@ -31,6 +32,7 @@
     "/faq/",
     "/terms/",
     "/privacy/",
+    "/gallery/",
     "/services/pet-turf/",
     "/services/play-area-and-playground-turf/",
     "/services/backyard-putting-greens/",
@@ -51,5 +53,5 @@
     "/blog/partial-artificial-turf-backyard-keller/",
     "/blog/artificial-turf-vs-bermuda-grass-keller-tx/"
   ],
-  "assembled_at": "2026-11-17T16:07:18.213215+00:00"
+  "assembled_at": "2026-11-17T19:11:21.155581+00:00"
 }
